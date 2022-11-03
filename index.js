@@ -12,9 +12,20 @@ function button_clicked() {
 
 function reset() {
      actual__password.textContent = " "
-     hvala.textContent = "Hvala što ste testirali app 😊"
-     setTimeout((function() {
-        window.location.reload();
-      }), 1000);
+
+    // hvala.textContent = "Thank you for testing the app 😊"
+
+    // setTimeout( (function() {
+    //    window.location.reload();
+    //} ), 1000);
 }
 
+function copy() {
+    actual__password.textContent = " "
+
+    kopi.textContent = "Your password has been copied 😊"
+
+    setTimeout( (function() {
+        window.location.reload();
+    } ), 1000);
+}

@@ -10,8 +10,9 @@ body {
     padding: 0 20px;
     margin: 150px auto;
     width: 20rem;
-    height: 24rem;
+    height: 25rem;
     border: 3px solid black;
+    overflow-y: hidden;
 }
 
 .generate {
@@ -19,13 +20,32 @@ body {
     font-weight: bold;
 }
 
-.never {
-    position: relative;
-    letter-spacing: 1px;
+span {
+    background-color: lightgreen;
 }
 
-#button, #clear {
+.never {
+    position: relative;
+    font-weight: bold;
+    top: -1rem;
+    letter-spacing: 1.5px;
+}
+
+#button, #copy {
 	position: relative;
+    margin-right: px;
+    font-family: monospace;
+    top: 1.5rem;
+    background-color: #FFF;
+	cursor: pointer;
+    padding: .5rem;
+    font-weight: 600;
+}
+
+#clear {
+	position: relative;
+    float: right;
+    margin-right: px;
     font-family: monospace;
     top: 1.5rem;
     background-color: #FFF;
@@ -37,14 +57,21 @@ body {
 #button:hover {
     background-color: #000;
     color: #fff;
-	transition: .4s ease;
+	transition: .6s ease;
 }
 
 #clear:hover {
     background-color: red;
     color: #000;
-	transition: .4s ease;
+	transition: .6s ease;
 }
+
+#copy:hover {
+    background-color: lightgreen;
+    color: #000;
+	transition: .6s ease;
+}
+
 
 .info {
     position: relative;
@@ -65,16 +92,14 @@ hr {
 }
 
 #actual__password {
-    font-family: monospace;
-    font-weight: lighter;
     font-size: 1.5rem;
     margin: 38px 60px;
 }
 
-#hvala {
+#hvala, #kopi {
     position: relative;
+    text-align: center;
     font-family: monospace;
     font-weight: bold;
-    top: 4rem;
-    padding-left: 3rem;
+    top: 2.8rem;
 }

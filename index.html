@@ -11,15 +11,17 @@
     </head>
     <body>
         <div id="container">
-            <p class="generate">Generate a random password</p>
+            <p class="generate">Generate a <span>&lt;random&gt;</span> password</p>
             <p class="never">Never use an insecure password again.</p>
                  <button id="button" onclick="button_clicked()">Generate password</button>
-                 <button id="clear" input type="reset" value="reset data" onclick="reset()">Clear</button>
+                 <button id="clear" onclick="reset()">Clear</button>
+                 <button id="copy" onclick="copy()">Copy</button>
             <hr>
             <p class="info">Your new password will be 15 characters long.</p>
         <div id="generated__password"></div>
         <p id="actual__password"></p>
         <p id="hvala"></p>
+        <p id="kopi"></p>
         </div>
     </body>
 </html>
