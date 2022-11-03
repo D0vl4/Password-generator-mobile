@@ -5,10 +5,12 @@
   }
 
 body {
+    display: block;
     font-family: monospace;
-    padding: 0 1.25rem;
+    padding: 0 20px;
+    margin: 200px auto;
     width: 20rem;
-    height: 22rem;
+    height: 24rem;
     border: 3px solid black;
 }
 
@@ -18,8 +20,7 @@ body {
 }
 
 .never {
-    position: absolute;
-    top: 7rem;
+    position: relative;
     letter-spacing: 1px;
 }
 
@@ -58,14 +59,12 @@ hr {
 
 #generated__password {
     position: relative;
-    top: 4rem;
+    top: 4.3rem;
     height: 2rem;
     border: 2px solid black;
 }
 
 #actual__password {
-    position: relative;
-    left: 3.7rem;
     font-size: 1.5rem;
-    top: .5rem;
+    margin: 38px 60px;
 }
