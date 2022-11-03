@@ -10,7 +10,7 @@ body {
     padding: 0 20px;
     margin: 150px auto;
     width: 20rem;
-    height: 25rem;
+    height: 26rem;
     border: 3px solid black;
     overflow-y: hidden;
 }
@@ -99,7 +99,5 @@ hr {
 #hvala, #kopi {
     position: relative;
     text-align: center;
-    font-family: monospace;
-    font-weight: bold;
-    top: 2.5rem;
+    top: 2.8rem;
 }
