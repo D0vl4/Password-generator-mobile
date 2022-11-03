@@ -92,8 +92,9 @@ hr {
 }
 
 #actual__password {
+    position: relative;
     font-size: 1.5rem;
-    margin: 38px 60px;
+    margin: 38px 55px;
 }
 
 #hvala, #kopi {

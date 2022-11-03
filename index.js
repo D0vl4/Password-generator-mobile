@@ -13,19 +13,21 @@ function button_clicked() {
 function reset() {
      actual__password.textContent = " "
 
-    // hvala.textContent = "Thank you for testing the app 😊"
+     hvala.textContent = "Thank you for testing the app 😊"   // text ispis kao za copy //
 
-    // setTimeout( (function() {
-    //    window.location.reload();
-    //} ), 1000);
+    setTimeout( (function() {         // reload stranice sa delay-om od 1sec //
+        window.location.reload();
+    } ), 1000);
 }
 
 function copy() {
     actual__password.textContent = " "
 
     kopi.textContent = "Your password has been copied 😊"
-
+    
     setTimeout( (function() {
         window.location.reload();
     } ), 1000);
 }
+
+
