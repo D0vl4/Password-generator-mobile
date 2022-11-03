@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgray;
+    }
+  }
+
+body {
+    font-family: monospace;
+    padding: 0 1.25rem;
+    width: 20rem;
+    height: 22rem;
+    border: 3px solid black;
+}
+
+.generate {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.never {
+    position: absolute;
+    top: 7rem;
+    letter-spacing: 1px;
+}
+
+#button, #clear {
+	position: relative;
+    font-family: monospace;
+    top: 1.5rem;
+    background-color: #FFF;
+	cursor: pointer;
+    padding: .5rem;
+    font-weight: 600;
+}
+
+#button:hover {
+    background-color: #000;
+    color: #fff;
+	transition: .4s ease;
+}
+
+#clear:hover {
+    background-color: red;
+    color: #000;
+	transition: .4s ease;
+}
+
+.info {
+    position: relative;
+    letter-spacing: -1px;
+    top: 3rem;
+}
+
+hr {
+    position: relative;
+    top: 5rem;
+}
+
+#generated__password {
+    position: relative;
+    top: 4rem;
+    height: 2rem;
+    border: 2px solid black;
+}
+
+#actual__password {
+    position: relative;
+    left: 3.7rem;
+    font-size: 1.5rem;
+    top: .5rem;
+}

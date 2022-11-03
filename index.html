@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Password generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" async defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <p class="generate">Generate a random password</p>
+            <p class="never">Never use an insecure password again.</p>
+                 <button id="button" onclick="button_clicked()">Generate password</button>
+                 <button id="clear" input type="reset" value="reset data" onclick="reset()">Clear</button>
+            <hr>
+            <p class="info">Your new password will be 15 characters long.</p>
+        <div id="generated__password"></div>
+        <p id="actual__password"></p>
+        </div>
+    </body>
+</html>
