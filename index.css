@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightgray;
+      background-color: white;
     }
   }
 
@@ -10,6 +10,7 @@ body {
     width: 20rem;
     height: 22rem;
     border: 3px solid black;
+    transform: translate(50%, 50%);
 }
 
 .generate {
