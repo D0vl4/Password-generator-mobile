@@ -12,7 +12,7 @@ body {
     width: 20rem;
     height: 26rem;
     border: 3px solid black;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .generate {
